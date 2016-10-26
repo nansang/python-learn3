@@ -22,3 +22,4 @@ if __name__ == "__main__":
 
     str = generate_verification_code(8)
     print("str=%s"%str)
+
