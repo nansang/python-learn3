@@ -53,4 +53,7 @@ apache cassandra: 用珲存储操作数据。
 
 '''
 
+python中的setdefaultencoding函数使用
+
+http://www.tuicool.com/articles/i67FBj
 '''
