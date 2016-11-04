@@ -38,3 +38,7 @@ sudo rm -rf /var/db/receipts/com.mysql.*
 
 - create table `test_test2` as select `test`.`id`, `test`.`name`,`test`.`sex`, `test2`.`add` from `test` inner join `test2` on `test`.`name` = `test2`.`name`;
 - select * from `click_16_08_27` inner join `16_08_27` on `click_16_08_27`.`push_time` = `16_08_27`.`request_time` and `click_16_08_27`.`push_time_us` = `16_08_27`.`request_time_us` ;
+
+
+移除包的时候还把相关的文件删除，然后重新装的时候才不会出问题
+python-mysql
