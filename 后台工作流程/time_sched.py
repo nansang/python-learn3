@@ -46,4 +46,6 @@ http://blog.csdn.net/u012935755/article/details/50178251
 2。增删改查4个方法
 
 '''
-# import ko
+# import
+
+# import net
