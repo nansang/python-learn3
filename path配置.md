@@ -4,8 +4,11 @@
 
 变现
 
+vim ~/.bash_profile
 
 source ~/.bash_profile
+
+source命令的作用是更新修改过的文件，而不用重新启动电脑
 
 /etc/paths
 
