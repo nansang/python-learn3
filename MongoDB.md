@@ -19,7 +19,9 @@
 
 [Mongodb for mac 的安装与配置](http://m.blog.csdn.net/article/details?id=51319368)
 
-[使用python语言操作MongoDB](http://blog.csdn.net/xsj_blog/article/details/52032969)
+[python调用MongoDB](http://www.cnblogs.com/qingtianyu2015/p/5968398.html)
+
+[MongoDB：关闭服务](http://francs3.blog.163.com/blog/static/405767272012101483936886/)
 
 mongod 启动服务器
 
