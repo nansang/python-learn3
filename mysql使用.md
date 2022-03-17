@@ -1,4 +1,4 @@
-MYSQL的安装和启动
+### MYSQL的安装和启动
 
 - 先在官网下载dmg文件，记住安装到最后时的密码；
 - 在系统偏好设置启动mysql
@@ -8,7 +8,7 @@ MYSQL的安装和启动
 
 [参考网址](http://www.myexception.cn/mysql/2043991.html)
 
-[删除在mac上的mysql](http://blog.csdn.net/maxsky/article/details/40347505)
+### [删除在mac上的mysql](http://blog.csdn.net/maxsky/article/details/40347505)
 
 ```
 sudo rm -rf /usr/local/mysql  
@@ -26,7 +26,7 @@ sudo rm -rf /var/db/receipts/com.mysql.*
 
 修改数据库用户名和密码 <http://blog.csdn.net/individualing/article/details/7887025>
 
-导入数据
+### 导入数据
 
 - 输入：mysql>use 目标数据库名,如图黄色区域。
 - 如我输入的命令行:mysql>use ygeshop;
@@ -34,11 +34,11 @@ sudo rm -rf /var/db/receipts/com.mysql.*
 - 导入文件：mysql>source 导入的文件名;
 - 如我输入的命令行：mysql>source ygeshop.sql;
 
-表关联（内关联）
+### 表关联（内关联）
 
 - create table `test_test2` as select `test`.`id`, `test`.`name`,`test`.`sex`, `test2`.`add` from `test` inner join `test2` on `test`.`name` = `test2`.`name`;
 - select * from `click_16_08_27` inner join `16_08_27` on `click_16_08_27`.`push_time` = `16_08_27`.`request_time` and `click_16_08_27`.`push_time_us` = `16_08_27`.`request_time_us` ;
 
 
-移除包的时候还把相关的文件删除，然后重新装的时候才不会出问题
+### 移除包的时候还把相关的文件删除，然后重新装的时候才不会出问题
 python-mysql
